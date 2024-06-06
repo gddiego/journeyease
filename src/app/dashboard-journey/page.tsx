@@ -23,7 +23,6 @@ const notifications = [
     description: "48 dias para embarque",
   },
 ]
-
 const Page: FC = () => {
   return (
     <Header>
