@@ -3,14 +3,14 @@
 import { CardContent } from "@/components/ui/card";
 import Breadcrumbs from "./breadcrumbs";
 import Header from "./header";
-import Provider from "@/config/providerAuth";
+// import Provider from "@/config/providerAuth";
 
  
 
 export default function Home() {
-  const session = await getSession();
+  // const session = await getSession();
   return (
-    <Provider session={session}>
+    // <Provider >
       <div>
         <Header />
         <div className="container mt-4">
@@ -29,6 +29,6 @@ export default function Home() {
           </div>
         </div>
       </div>
-    </Provider>
+    // </Provider>
   );
 }
