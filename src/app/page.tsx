@@ -20,7 +20,7 @@ export default function Home() {
           {/* Aqui você pode adicionar os elementos filhos que deseja renderizar dentro de Header */}
           {/* Por exemplo, um título */}
           <h1>Bem-vindo à Journeyease Ferramenta de Organização de Viagens</h1>
-          <PageDashboard/>
+          {/* <PageDashboard/> */}
         </Header>
         <div className="container mt-4">
           <Breadcrumbs />
