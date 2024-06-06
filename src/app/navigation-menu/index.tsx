@@ -16,7 +16,7 @@ export function NavigationMenuDemo() {
           <span className="sr-only">Acme Inc</span>
         </Link>
         <Link
-          href="#"
+          href="/dashboard-journey"
           className="text-foreground transition-colors hover:text-foreground"
         >
           Dashboard
