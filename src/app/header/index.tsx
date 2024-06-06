@@ -1,11 +1,13 @@
 // components/Header.tsx
 
-import React, { FC } from "react";
+import React, { FC, ReactNode } from "react";
 import { NavigationMenuDemo } from "../navigation-menu";
 import Breadcrumbs from "../breadcrumbs";
 import { Card } from "@/components/ui/card";
-
-const Header: FC = ({ children }) => {
+interface HeaderProps {
+  children: ReactNode; // Aceita elementos filhos
+}
+const Header: FC<HeaderProps> = ({ children }) => {
   return (
     <header className="mt-10">
       <div className="container">

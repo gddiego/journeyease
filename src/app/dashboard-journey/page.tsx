@@ -1,4 +1,4 @@
-import { FC } from "react";
+import { FC, ReactNode } from "react";
 import {  Card, CardHeader, CardTitle, CardDescription, CardContent, CardFooter } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import Header from "../header";
@@ -23,9 +23,10 @@ const notifications = [
     description: "48 dias para embarque",
   },
 ]
-const Page: FC = () => {
+
+const Page: FC= () => {
   return (
-    <Header>
+    <Header >
       <div className="container-fluid">
         <div style={{ marginBottom: "1rem" }} className="row">
           <div className="grid auto-rows-max items-start gap-4 md:gap-8 lg:col-span-2">
