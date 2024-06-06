@@ -24,7 +24,7 @@ const notifications = [
   },
 ]
 
-const Page: FC= () => {
+const PageDashboard: FC= () => {
   return (
     <Header >
       <div className="container-fluid">
@@ -129,4 +129,4 @@ const Page: FC= () => {
   );
 };
 
-export default Page;
+export default PageDashboard;

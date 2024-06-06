@@ -4,6 +4,7 @@ import { CardContent } from "@/components/ui/card";
 import Breadcrumbs from "./breadcrumbs";
 import Header from "./header";
 import { ReactNode } from "react";
+import PageDashboard from "./dashboard-journey/page";
 // import Provider from "@/config/providerAuth";
 
  
@@ -19,6 +20,7 @@ export default function Home() {
           {/* Aqui você pode adicionar os elementos filhos que deseja renderizar dentro de Header */}
           {/* Por exemplo, um título */}
           <h1>Bem-vindo à Journeyease Ferramenta de Organização de Viagens</h1>
+          <PageDashboard/>
         </Header>
         <div className="container mt-4">
           <Breadcrumbs />
