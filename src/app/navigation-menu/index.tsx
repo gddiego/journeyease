@@ -78,7 +78,7 @@ export function NavigationMenuDemo() {
           Transporte
         </Link>
         <Link
-          href="#"
+          href="/analytics"
           className="text-muted-foreground transition-colors hover:text-foreground"
         >
           Analytics
