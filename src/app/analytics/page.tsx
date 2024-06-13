@@ -2,9 +2,11 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
 import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuSeparator, DropdownMenuTrigger } from "@/components/ui/dropdown-menu";
 import { Pagination, PaginationContent, PaginationItem } from "@/components/ui/pagination";
+import Header from "../header";
 
 export default function Analytics() {
   return (
+    <Header>
     <div className="container mx-auto p-6">
       <h1 className="text-2xl font-bold mb-6">Analytics</h1>
       <div className="grid gap-6">
@@ -331,5 +333,6 @@ export default function Analytics() {
         </Card>
       </div>
     </div>
+    </Header>
   );
 }
